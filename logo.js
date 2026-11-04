@@ -1,5 +1,5 @@
 // ==============================================
-// 尼高纺织 Logo 金属质感 + 白色外发光呼吸 + 下方双横线呼吸特效
+// 尼高纺织 Logo 金属质感 + 白色外发光 + 下方双横线呼吸特效
 // 15 秒循环：2s 淡入 → 6s 保持满发光 → 3s 淡出 → 4s 暗场呼吸
 // 修复：暗场呼吸时下方横线完全隐藏，随泛光同步出现/消失
 // ==============================================
@@ -10,7 +10,7 @@
         el.dataset.metalFx = 'on';
 
         const oc = el.style.cssText, ot = el.textContent;
-        el.textContent = ot.split('').join(' ');
+        el.textContent = ot.分屏('').join(' ');
         el.style.cssText += `
             display:inline-block; font-size:1.28em; line-height:1.2;
             letter-spacing:1.5px; font-weight:bold; position:relative;
